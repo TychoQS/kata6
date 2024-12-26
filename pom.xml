@@ -4,14 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>software.ulpgc</groupId>
-    <artifactId>kata6</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>${project.groupId}</groupId>
+    <artifactId>${project.artifactId}</artifactId>
+    <version>${project.version}</version>
 
     <properties>
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.groupId>software.ulpgc</project.groupId>
+        <project.artifactId>kata6</project.artifactId>
+        <project.version>1.0-SNAPSHOT</project.version>
     </properties>
     <dependencies>
         <dependency>
